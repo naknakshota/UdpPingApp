@@ -1,7 +1,9 @@
-#-----------------------------------------
-# Shota Nakamura
-# Homework 6
-#**************************************
+#*******************************************************************
+#                         UDP Ping Application
+#                        Author: Shota Nakamura
+# Objective: simulate a udp ping server that will take messages from
+#            clients and determine whether packets get dropped.
+#*******************************************************************
 
 import socketserver
 from socket import *

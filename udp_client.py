@@ -1,7 +1,10 @@
-#-----------------------------------------
-# Shota Nakamura
-# Homework 6
-#**************************************
+#*******************************************************************
+#                         UDP Ping Application
+#                        Author: Shota Nakamura
+# Objective: simulate a udp ping client that will send messages to 
+#            the server, receive back a message to calculate RTT or
+#            round trip time.
+#*******************************************************************
 
 from socket import *
 import sys
